@@ -1,12 +1,21 @@
-body{
+/* la id prevalece sobre los selectores de clase */
+/* Pagina 92 del pdf esta la lista de prevalecer*/
+    body{
     background-color: black;
 }
 h3{
     color: white;
-    text-decoration: underline;
-    
 }
 p{
     color: white;
     font-family: "Comic Sans MS", Times, serif;
+}
+.centrar {
+    text-align: center;
+    }
+.red {
+    color: red;
+    }
+.subrayado{
+    text-decoration: underline;
 }
