@@ -1,13 +1,15 @@
 .main-header {
         background-color: #df2d2d;
         padding: 8px 16px;
-        width: 100%;
+        width: 100%-49px;
         }
 header.main-header{
         background-color: #2ddf5c;
         padding: 8px 16px;
-        width: 100%;
+        width: 100%-49px;
+        text-align: right;
         }
+
 nav.main-nav{
     display: inline-block;
 }
