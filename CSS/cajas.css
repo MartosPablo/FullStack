@@ -1,0 +1,19 @@
+.main-header {
+        background-color: #df2d2d;
+        padding: 8px 16px;
+        width: 100%;
+        }
+header.main-header{
+        background-color: #2ddf5c;
+        padding: 8px 16px;
+        width: 100%;
+        }
+nav.main-nav{
+    display: inline-block;
+}
+li.main-nav{
+    display: inline-block;
+} 
+ul.main-nav{
+    display: inline-block;
+}
