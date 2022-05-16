@@ -1,0 +1,24 @@
+
+.flex-container-wrap {
+        display: flex;
+        background-color: blue;
+        flex-wrap:wrap;
+        justify-content: center;
+        }
+        
+.flex-container-aling > div {
+        background-color: red;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        flex-wrap: wrap;
+        }
+.flex-container-aling {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+        height: 200px;
+        }
+        
