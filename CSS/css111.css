@@ -1,0 +1,78 @@
+.sub{
+    text-decoration: underline;
+}
+p.indent{
+    text-indent: 50px;
+}
+p.spacing{
+    letter-spacing: 3px;
+}
+p.height{
+    line-height: 1.8;
+}
+p.direction{
+    direction: rtl;
+}
+p.spacing{
+    word-spacing: 10px;
+}
+p.shadow {
+    text-shadow: 4px 9px 2px red;
+}
+p.serif {
+    font-family:'Times New Roman', Times, serif
+}
+p.comic {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
+p.sizesmall{
+    font-size: 10px;
+}
+p.sizebig{
+    font-size: 30px;
+}
+p.sizeem {
+    font-size: 1.3em;
+}
+p.negrita{
+    font-weight: bold;
+}
+p.thicker{
+    font-weight: 900;
+}
+p.smallcaps{
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+p.googleleter{
+    font-family: 'Macondo', cursive;
+}
+p.montserrat{
+font-family: 'Montserrat', sans-serif;
+}
+.middle > * {
+    vertical-align: middle;
+    }
+.top > * {
+        vertical-align: top;
+        }
+.bottom > * {
+        vertical-align: bottom;
+        }
+h2 {
+        display: inline-block;
+        margin: 0;
+        width: 150px;
+        text-align: right;
+        font: bold 20px Sans-Serif;
+        }
+div {
+        margin: 0 0 30px 0;
+        padding: 10px;
+        }
