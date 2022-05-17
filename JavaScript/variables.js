@@ -22,9 +22,17 @@ let variable4;
 // undefined
 console.log(variable4);
 // error
-console.log(variable_nodeclarada);
+// console.log(variable_nodeclarada);
 const variable3 = null;
 // true
 console.log(null == undefined);
 // false
-console.log(null === undefined );
+console.log(null === undefined);
+
+var alert1 = 5;
+// permitido
+var alert1 = '';
+let alert2 = 5;
+// no permitido porque ya se declaró antes
+let alert5 = 6;
+alert2 = 4 //Se permite asignar de nuevo pero no declarar
