@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas JavaScript</title>
+        <script src="../JavaScript/prueba1.js">
+        </script>
+            <script>
+            alert("Hello world!");
+            </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Pruebas JavaScript</h1>
+    
+    <p id="demo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nisi cumque omnis reprehenderit tenetur mollitia! Minima, eos corrupti nihil vel sint optio quam quibusdam minus odio eveniet, quos pariatur dolorum!</p>
+        
+    <button type="submit" onclick="myFunction()">Clica para cambiar
+    </button>
+    <button type="submit" onclick="myFunction2()">Volver</button>
+    
+    <script>document.write("Hello world! Texto en el documento");
+    </script>
+        
+    <script>
+    function myFunction() {
+    document.getElementById("demo").innerHTML = "Párrafo cambiado";
+    }
+    </script>
+    <script>
+    function myFunction2(){
+        document.getElementById("demo").innerHTML="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nisi cumque omnis reprehenderit tenetur mollitia! Minima, eos corrupti nihil vel sint optio quam quibusdam minus odio eveniet, quos pariatur dolorum!"
+    }
+    </script>
+    
+    </script>
+        <script>
+        $(document).ready(function(){
+            console.log('Librería jQuery cargada');
+        });
+        </script>
+    
+<script>
+    console.log("hola")
+    console.log('en', 'un', 'lugar', 'de', 'la', 'Mancha');
+    console.info('Info');
+    console.warn('Warning');
+    console.error('Error');
+    document.write("Texto2");
+</script>
+<p id="demo3"></p>
+<script>
+document.getElementById("demo3").innerHTML = "hola";
+// Esto es un comentario de una única línea
+/*
+Esto es
+un comentario
+multilínea
+*/
+const nombre = "Alejandro";
+function saludar() {
+document.write(nombre);
+}
+</script>
+<button type="submit" onclick="saludar()">No clickes</button>
+<script>
+    const nombre3 = prompt("Escriba su nombre", "Escriba aquí");
+    console.log(nombre3);
+    const conf = confirm("Sí o no");
+// true o false
+console.log(conf);
+</script>
+<script>// 1000000000000000000
+    console.log(9999999999999999999);
+    // 0.6
+    console.log(0.5+0.1);
+    // 0.30000000000000004
+    console.log(0.1+0.2);
+    // 0.3
+    console.log(Math.round((0.1+0.2)*100)/100);
+    console.log(parseFloat((0.1+0.2).toFixed(1)));
+    // -Infinity
+    console.log(Math.max());
+    // Infinity
+    console.log(Math.min());
+    // ""
+    console.log([]+[]);
+    146
+    // "aa"
+    console.log(["a"]+["a"]);
+    // "[object Object]"
+    console.log([]+{});
+    // 0
+    console.log({}+[]);
+    // true
+    console.log(true+true+true===3);
+    // true
+    console.log(true==1);
+    // false
+    console.log(true===1);
+    // 9
+    console.log((!+[]+[]+![]).length);
+    // "91"
+    console.log(9+"1");
+    // 90
+    console.log(91-"1");
+    // true
+    console.log([] == 0);
+147
+    </script>
+
+</body>
+</html>
