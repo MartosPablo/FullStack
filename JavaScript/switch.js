@@ -30,7 +30,18 @@ for(let i=1; i < 51; i++){
     console.log (i);
 }
 // Ejercicio 9
-for (let f=0; f<55; f++, f+=4)
-    console.log (f);
-// Ejercicio 10
-const palabra = prompt ("Escriba una palabra")
+for (let f=0; f < 11; f++){
+    document.write("<br>", "5x" + f + "=" + 5*f)
+    
+} 
+document.write("<br>")
+// Ejercicio 10 
+var f = prompt("Escribe una palabra","Escribe aqui");
+for (let i=0;i<10;i++){
+    document.write(f +"<br>")  
+}
+//Ejercicio 11
+var num = prompt("Pon un numero", "un numero")
+for (let i=num ; num>-1 ; --num) {
+
+document.write(num + ", ")}
