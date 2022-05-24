@@ -1,19 +1,7 @@
-//Ejercicio 1: escribe un programa que liste el nombre de las propiedades del siguiente objeto utilizando las dos formas comentadas con anterioridad: { name : "David Rayy", sclass : "VI", rollno : 12 }
-const objeto1 = {
-    nombre: 'David Rayy',
-    sclass : "VI",
-    rollno: 12,
-    mostrarNombre() {
-    console.log(this.nombre);
-    }
-    }
-    objeto1.mostrarNombre();
-    console.log(objeto1.mostrarNombre);
-
-    const objeto2 = {
-        nombre: 'Alejandro',
-        mostrarNombre: function() {
-        console.log(this.nombre);
-        }
-        }
-    objeto2.mostrarNombre();
+// Ejercicio 1 del proyecto: escribe un programa que declare 3 objetos de cada modelo de datos considerado: gestor, cliente, mensaje y transferencia. Los valores de las propiedades de los objetos pueden ser arbitrarios.
+const banco = {
+    gestor: "Persona1",
+    cliente1: "persona2",
+    mensaje: "texto1",
+    transferencia: "texto2"
+}
